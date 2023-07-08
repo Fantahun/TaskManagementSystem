@@ -52,8 +52,7 @@ body{
 }
 #startBtn:hover{
     border: 2px solid #1da353;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 header{
