@@ -1,7 +1,10 @@
 # TaskManagementSystem
+
 a Challenge to try in one night with [@abdisa-a](https://github.com/abdisa-a)
 
 ### Project UI Design: https://www.figma.com/file/4jjA8gX0Ymfa2kEdqR6M6Y/F%26A-TaskDO?type=design&node-id=0%3A1&mode=design&t=OL8bMvdOemBmTTuZ-1
+
+### updated ui design: https://i.pinimg.com/originals/60/57/24/6057242535ba945620362959d8ff3cac.png
 
 # Features and Description are as follows
 
@@ -17,21 +20,25 @@ Save the new task to user task list in your database
 Display the new task in the user’s task list
 
 ## Task List
+
 Retrieve the user’s task from the database and display in a list format
 Show the task description and status (complete or incomplete) for each task
 Implement filters to display only completed or incomplete task (Optional)
 
 ## Task Updates
+
 Provide a way for users to mark tasks as complete or incomplete, such as a checkbox or toggle button.
 Allow users to edit the task description and due date through an edit form or inline editing.
 Update the task's information in the your database when changes are made.
 
 ## Task Deletion
+
 Include a delete button or icon next to each task in the task list.
 Remove the task from the user's task list in the your database when the delete button is clicked.
 Update the task list display to remove the deleted task.
 
 ## Constraints And Restrictions
+
 You are free to use any library or language you see feet as long as you follow these rules:
 
 🥇 Use the best coding and web design practices as you see fit.
@@ -39,4 +46,4 @@ You are free to use any library or language you see feet as long as you follow t
 👍🏼 A database is required, and we need the corresponding database operation code.
 We recommend you use SQL for your database. Other databases are also allowed
 😎 Backend API ( like NodeJs) is Optional. You can use Frontend and database integration only
-We expect you to push your finished project on Github. And send us a link to your project repository at bootcamp@yenettacode.com  Please leave instructions to run your program in your repository.
+We expect you to push your finished project on Github. And send us a link to your project repository at bootcamp@yenettacode.com Please leave instructions to run your program in your repository.
