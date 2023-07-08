@@ -2,11 +2,9 @@
 a Challenge to try in one night with @abdisa-a
 
 
-#Features
+# Features and Description are as follows
 
-#Description
-
-#User Authentication
+## User Authentication
 
 Implement a sign-up form that captures the user's name, email address, and password.
 Implement a login form that requires the user's email address and password.
@@ -17,22 +15,22 @@ Provide a form where the user can enter a task with description.
 Save the new task to user task list in your database
 Display the new task in the user’s task list
 
-# Task List
+## Task List
 Retrieve the user’s task from the database and display in a list format
 Show the task description and status (complete or incomplete) for each task
 Implement filters to display only completed or incomplete task (Optional)
 
-# Task Updates
+## Task Updates
 Provide a way for users to mark tasks as complete or incomplete, such as a checkbox or toggle button.
 Allow users to edit the task description and due date through an edit form or inline editing.
 Update the task's information in the your database when changes are made.
 
-# Task Deletion
+## Task Deletion
 Include a delete button or icon next to each task in the task list.
 Remove the task from the user's task list in the your database when the delete button is clicked.
 Update the task list display to remove the deleted task.
 
-# Constraints And Restrictions
+## Constraints And Restrictions
 You are free to use any library or language you see feet as long as you follow these rules:
 
 🥇 Use the best coding and web design practices as you see fit.
