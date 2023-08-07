@@ -1,0 +1,166 @@
+/*
+COLORS: Blue, maroon, & indigo (classic)
+HEX CODES:--------------------------------
+
+    Indigo #1E2761   ----Titles
+    Blue #408EC6     --- text / todos   
+    Maroon #7A2048   --- buttons
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+
+.container{
+    height: 100dvh;
+    width: 800px;
+     margin: auto;
+    border: 1.5px solid #7a2048;
+    border-radius: 20px;
+    /* margin: auto; */
+    display: flex;
+    flex-flow: column nowrap; /* this make the direction and the wrap all at once*/
+    justify-content:center;/*align items across main axis*/
+    align-items: center; /*align items across cross axis*/
+    overflow-x: scroll;
+}
+
+#title{
+    color: #1E2761;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+
+
+}
+#motto, #todoMotto{
+    font-weight: 300;
+    color:#7A2048;
+}
+
+a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1E2761;
+    /* text-decoration: underline; */
+}
+
+/* -------------  TODOS PAGE--------------------- */
+
+
+
+.todos{
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+form{
+    margin: 30px auto 30px auto;
+    text-align: center;
+    width:60%;
+
+}
+
+#task_input{
+    padding: 10px 10px;
+    font-size: 12px;
+    width: 70%;
+    height: auto;
+    color: #1E2761;
+    letter-spacing: .3px;
+    border: 2px solid #408EC6; 
+    border-radius: 3px;
+    border-radius: 3px 0 0px 3px;
+    margin: 0 auto 0 auto;
+
+}
+
+#task_input:focus {
+    outline: none; /* Removes the default focus outline */
+    border-color: #1E2761; /* Changes the border color */
+    box-shadow: 0 0 3px #1E2761; 
+    border-radius: 3px;
+  }
+
+#add_task{
+
+    border: 2px solid #408EC6;
+    border-radius: 3px;
+    background-color: #408EC6;
+    color: white;
+    padding: 8px 12px;
+    font-size: mediumw;
+    text-align: center ;
+    border-radius: 0px 3px 3px 0px;
+
+}
+
+#add_task:hover{
+    cursor: pointer;
+    border-color: #1E2761;
+
+}
+
+#add_task:active{
+    cursor: pointer;
+    background-color: #1E2761;
+    color: white;
+
+}
+
+/* - add a margin to the scroll bar of the todos container  */
+
+.list_container {
+    /* margin-top: 30px; */
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    /* overflow-x: hidden  ; */
+    overflow-y: scroll;
+    
+}
+.task_content label{
+    margin-left: 5px;
+}
+
+input[type="checkbox"]:checked {
+    display: inline-block;
+    background: #408EC6;
+}
+
+.list{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px 15px;
+
+border-radius: 5px;
+margin-bottom: 15px;
+border: 1.5px solid #7A2048;
+}
+
+
+
+
+.task_buttons {
+  margin-left:30px;
+
+}
+
+.task_buttons > button{
+    margin-left: 10px;
+    color: #1E2761;
+    cursor: pointer;
+    /* outline: none; */
+    background: none;
+    border: none;
+}

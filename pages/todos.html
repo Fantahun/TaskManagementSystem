@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskManagementSystem</title>
+    <link href="../styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container todos" >
+        <a href="../index.html">Home</a>
+        <h1 id="title">Empower Your Productivity: <br> <span id="todoMotto">Get Tasks Done! <span id="tasksCountDisplay"></span></h1>
+        <form action="#">
+            <span>
+                <input type="text" id="task_input" minlength="2" maxlength="50" placeholder="Type your tasks here..." autocomplete="off"/>
+                <button id="add_task">+</button>
+            </span>
+        </form>
+        <hr style="width: 100%; color: #7a2048; margin-bottom: 30px;" />
+
+
+        <ul class="list_container">
+
+            <li class="list">
+                <span class="task_content">
+                        <input type="checkbox" id="mark_task" />
+                        <label for="mark_task" minlength="2" >hello from the 40 characters limitttttdd</label>
+                </span>
+                <span class="task_buttons">
+                    <button href="">Edit</button>
+                    <button href="">Delete</button>
+                </span>
+            </li>
+
+            <li class="list">
+                <span class="task_content">
+                        <input type="checkbox" id="mark_task2" />
+                        <label for="mark_task2" contenteditable="true" >hello from the 40 characters limitttttddlimitttttddlimitttttttdd</label>
+                </span>
+                <span class="task_buttons">
+                    <button href="">Edit</button>
+                    <button href="">Delete</button>
+                </span>
+            </li>
+
+            <li class="list">
+                <span class="task_content">
+                        <input type="checkbox" id="mark_task3" />
+                        <label for="mark_task3"  >hello from the 40 characters limitttttddddddddd</label>
+                </span>
+                <span class="task_buttons">
+                    <button href="">Edit</button>
+                    <button href="">Delete</button>
+                </span>
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="../scripts/app.js"></script>
+</body>
+
+</html>
